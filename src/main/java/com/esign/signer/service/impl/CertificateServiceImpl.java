@@ -15,7 +15,6 @@ import com.esign.signer.model.CertificateModel;
 import com.esign.signer.model.TerminalModel;
 import com.esign.signer.service.CertificateService;
 
-import org.dozer.DozerBeanMapper;
 import org.springframework.stereotype.Component;
 
 import tr.gov.tubitak.uekae.esya.api.asn.x509.ECertificate;
@@ -46,7 +45,6 @@ import tr.gov.tubitak.uekae.esya.asn.util.AsnIO;
 @Component
 public class CertificateServiceImpl implements CertificateService {
 
-    DozerBeanMapper mapper = new DozerBeanMapper();
 
     private static String policyFile;
     private static ValidationPolicy validationPolicy;
