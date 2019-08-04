@@ -20,6 +20,12 @@ public class CertificateController {
 
     @Autowired
     CertificateService service;
+    
+    @GetMapping("test")
+    public GenericResponse getTest() {
+
+        return GenericResponse.createSuccessResponse(true);
+    }
 
     @GetMapping
     public GenericResponse get() throws Exception {

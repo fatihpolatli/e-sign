@@ -13,9 +13,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
@@ -28,26 +28,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="target/generated-sources/annotations">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
-			<attribute name="m2e-apt" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="ignore_optional_problems" value="true"/>
-			<attribute name="m2e-apt" value="true"/>
-			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="output" path="target/classes"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/akiscif-2.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/armeabi-0.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/asn1rt-6.6.4.jar"/>
@@ -84,9 +64,7 @@
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-turkcellmssprovider-2.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-xmlsignature-2.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/pscjni-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/slf4j-api-1.6.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/slf4j-jdk14-1.6.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/sqlite-jdbc-3.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
