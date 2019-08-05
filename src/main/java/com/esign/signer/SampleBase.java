@@ -6,16 +6,9 @@ import java.util.Date;
 
 import javax.annotation.PostConstruct;
 
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-
 import org.springframework.stereotype.Component;
 
-import tr.gov.tubitak.uekae.esya.api.asn.pqixqualified.EQCStatement;
-import tr.gov.tubitak.uekae.esya.api.asn.x509.ECertificate;
 import tr.gov.tubitak.uekae.esya.api.common.util.LicenseUtil;
-import tr.gov.tubitak.uekae.esya.asn.PKIXqualified.QCStatement;
 
 /**
  * Provides required variables and functions
@@ -24,7 +17,7 @@ import tr.gov.tubitak.uekae.esya.asn.PKIXqualified.QCStatement;
 public class SampleBase {
 
     // bundle root directory of project
-    public static final String ROOT_DIR = "C:/ma3api-java-bundle";
+    public static final String ROOT_DIR = "./";
 
     // gets only qualified certificates in smart card
     public static final boolean IS_QUALIFIED = true;
@@ -37,7 +30,7 @@ public class SampleBase {
 
         try {
             System.out.println("init");
-            LicenseUtil.setLicenseXml(new FileInputStream(ROOT_DIR + "/lisans/lisans.xml"));
+            LicenseUtil.setLicenseXml(new FileInputStream(ROOT_DIR + "/licence/lisans.xml"));
 
             Date expirationDate = LicenseUtil.getExpirationDate();
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");

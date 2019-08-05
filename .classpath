@@ -28,43 +28,23 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/akiscif-2.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/armeabi-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/asn1rt-6.6.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/Assd_api-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/axis-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ccid-1.1.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/commons-discovery-0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/cryptolib-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/gtijni-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/jaxrpc-api-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/jcifs-1.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/jna-4.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-asic-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-asn-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-aveamssprovider-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-certstore-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-certvalidation-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-cmssignature-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-common-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-crypto-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-crypto-gnuprovider-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-crypto-sunprovider-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-infra-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-mssclient-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-pades-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-signature-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-smartcard-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-smartcard-android-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-smartcard-android-acs-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-smartcard-android-ccid-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-turkcellmssprovider-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/ma3api-xmlsignature-2.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/pscjni-0.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/sqlite-jdbc-3.7.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Lenovo/Downloads/signer/signer/lib/wsdl4j-1.6.2.jar"/>
+	
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
